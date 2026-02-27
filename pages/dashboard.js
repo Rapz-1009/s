@@ -33,7 +33,7 @@ export default function Dashboard() {
 
   return (
     <div style={{display:'flex',flexDirection:'column',alignItems:'center',justifyContent:'center',height:'100vh',background:'#0d1117',color:'#fff'}}>
-      <h2>📱 Upload Nomor Bot</h2>
+      <h2>📱 Masukan Nomor Bot</h2>
       <form onSubmit={handleUpload} style={{display:'flex',flexDirection:'column',gap:'10px',width:'250px'}}>
         <input type="text" placeholder="+628xxx..." value={number} onChange={(e)=>setNumber(e.target.value)} style={{padding:'8px',borderRadius:'6px'}}/>
         <button type="submit" style={{padding:'8px',borderRadius:'6px',background:'#1f6feb',color:'#fff',border:'none'}}>Upload</button>
